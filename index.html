@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tragamonedas Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Botón de "Abrir recetas" arriba del centro -->
+        <div class="center-button">
+            <a href="https://discord.gg/2dYzh9AwHw" target="_blank">
+                <button id="openRecipesButton">Abrir recetas</button>
+            </a>
+        </div>
+        
+        <div class="slot-machine">
+            <div class="slot" id="slot1">🦄</div>
+            <div class="slot" id="slot2">🐶</div>
+            <div class="slot" id="slot3">🐱</div>
+        </div>
+        <button id="spinButton" onclick="spin()">Tirar de la palanca</button>
+        <div class="message" id="message"></div>
+        <div class="countdown" id="countdown"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
